@@ -8,6 +8,7 @@ from datetime import date
 # 1) Enter your twilio account sid, auth token, and the twilio number given on the dashboard.
 account_sid = "YOUR_ACCOUNT_SID"
 auth_token = "YOUR_AUTH_TOKEN"
+twilio_number = "+19999999999"
 
 client = Client(account_sid, auth_token)
 
@@ -43,5 +44,5 @@ while True:
                 msg_body += '\n' + body
     if send_msg:
         message = client.messages.create(body=msg_body,
-                from_='+15035129903', to=mobile_number)
+                from_=twilio_number, to=mobile_number)
     time.sleep(time_interval)
