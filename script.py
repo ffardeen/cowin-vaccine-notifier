@@ -17,7 +17,7 @@ mobile_number = "+919999999999"
 age = 18
 
 # 3) Enter the time interval for which you want the slots to be checked (in seconds) Default is 20 mins.
-time_interval = 1200;
+time_interval = 1200
 
 today = date.today()
 date = today.strftime('%d-%m-%Y')
