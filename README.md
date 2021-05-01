@@ -1,4 +1,4 @@
-# CoWIN vaccination slots checker and notifier
+# CoWIN vaccination slot checker and notifier
 This is a small utility script to check for available vaccination slots in your location and receive a text message to your number when slots are available!
 
 * Enter your pin code, mobile number and age
