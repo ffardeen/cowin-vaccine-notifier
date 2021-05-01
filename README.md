@@ -11,12 +11,12 @@ This script uses python. Install python first if you haven't already
 1) Download the repo as a zip and extract
 2) Run `pip install -r requirements.txt`
 3) Setting up a Twilio account:
-  1) Sign up for a free Twilio account at twilio.com
-  2) On the dashboard, request a new mobile number. Click on "Choose mobile number" (it can be any country)
-  3) Copy your account_sid, your auth token and the Twilio mobile number
+  i) Sign up for a free Twilio account at twilio.com
+  ii) On the dashboard, request a new mobile number. Click on "Choose mobile number" (it can be any country)
+  iii) Copy your account_sid, your auth token and the Twilio mobile number
 4) Open script.py in a text editor
-  1) Paste these values one by one into the script
-  2) Enter the required inputs as given in the script
+  i) Paste these values one by one into the script
+  ii) Enter the required inputs as given in the script
 6) Run the script with `python script.py` and keep it running
 
 
