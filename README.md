@@ -24,3 +24,8 @@ Please star the repo if you find the script useful!
 
 ## Disclaimer
 This code is intended to be helpful amidst the covid-19 pandemic. It should not be misused with short time delays between requests made to coWIN's official website. [cowin.gov.in]
+
+1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
