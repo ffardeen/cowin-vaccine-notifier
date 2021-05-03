@@ -12,7 +12,7 @@ twilio_number = "+19999999999"
 
 client = Client(account_sid, auth_token)
 
-# 2) Enter your pincode, mobile number and age(18/45). Default is 18.
+# 2) Enter your pincode, mobile number and age. Default is 18.
 pincode="99999"
 mobile_number = "+919999999999"
 age = 18
@@ -35,7 +35,7 @@ while True:
     for center in r.json()['centers']:
         for session in center['sessions']:
             if session['available_capacity'] > 0 \
-                and session['min_age_limit'] == age:
+                and session['min_age_limit'] <= age:
                 send_msg = True
                 line = \
                     ('Available {} slots for {}+ in {} .'.format(session['available_capacity'
