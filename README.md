@@ -1,7 +1,7 @@
 # CoWIN vaccination slot availabilty checker and notifier
-This is a small utility script to check for available vaccination slots in your location and receive a call to your mobile number when slots are available!
+This is a small utility script to check for available vaccine slots in your location and receive a call to your mobile number when slots are available!
 
-* Enter your pin code, mobile number and age
+* Enter your pin code, mobile number and age limit (18-44/45+)
 * Check availability of slots every x minutes 
 * Receive a call on your mobile number when there is an available slot
 
