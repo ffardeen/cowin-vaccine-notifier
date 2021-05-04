@@ -1,9 +1,9 @@
-# CoWIN vaccination slot checker and notifier
-This is a small utility script to check for available vaccination slots in your location and receive a call or a text to your mobile number when slots are available!
+# CoWIN vaccination slot availabilty checker and notifier
+This is a small utility script to check for available vaccination slots in your location and receive a call to your mobile number when slots are available!
 
 * Enter your pin code, mobile number and age
-* Check availability of slots every 20 minutes
-* Receive a call or text on your mobile number when there is an available slot
+* Check availability of slots every x minutes 
+* Receive a call on your mobile number when there is an available slot
 
 
 ## How to execute the script
@@ -17,11 +17,11 @@ This script uses python. Install python first if you haven't already
    * On the dashboard, request a new mobile number. Click on "Choose mobile number" (it can be any country)
    * Copy your account_sid, your auth token and the Twilio mobile number
 
-4. Open script_call.py or script_text.py in a text editor.
+4. Open inputs.py in a text editor.
    * Paste these values one by one into the script
-   * Enter the required inputs as given in the script
+   * Enter the required inputs also
 
-5. Run the script with `python script_text.py` if you want to receive a text message or, `python script_call.py` if you want to receive a call.
+5. Run the script with `python main_script.py`
 6. Keep the script running in the background
 
 Please star the repo if you find the script useful!
